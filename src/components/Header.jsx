@@ -53,7 +53,7 @@ function Header() {
 
         <div className="relative cursor-pointer">
           <img
-            src="/public/assets/cart/shopping-cart.png"
+            src="/cart/shopping-cart.png"
             alt="cart"
             className="w-6 filter invert"
             onClick={() => setIsOpen((prev) => !prev)}
