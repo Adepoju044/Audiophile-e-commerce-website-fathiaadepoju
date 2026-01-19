@@ -25,8 +25,8 @@ function Header() {
           <img
             src={
               isMenuOpen
-                ? "/src/public/assets/shared/tablet/icon-menu-close.svg"
-                : "/src/public/assets/shared/tablet/icon-menu.svg"
+                ? "/assets/shared/tablet/icon-menu-close.svg"
+                : "/assets/shared/tablet/icon-menu.svg"
             }
             alt="Menu"
             className="w-5"
@@ -53,7 +53,7 @@ function Header() {
 
         <div className="relative cursor-pointer">
           <img
-            src="/src/public/assets/cart/shopping-cart.png"
+            src="/assets/cart/shopping-cart.png"
             alt="cart"
             className="w-6 filter invert"
             onClick={() => setIsOpen((prev) => !prev)}
