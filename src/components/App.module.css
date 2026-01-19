@@ -1,5 +1,5 @@
 .appContainer {
-  background-image: url("/src/public/assets/home/desktop/image-hero.jpg");
+  background-image: url("/home/desktop/image-hero.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -9,7 +9,7 @@
 
 @media (max-width: 980px) {
   .appContainer {
-    background-image: url("/src/public/assets/home/tablet/image-hero.jpg");
+    background-image: url("/home/tablet/image-hero.jpg");
     background-size: contain;
     height: 88vh;
   }
@@ -17,7 +17,7 @@
 
 @media (max-width: 1024px) {
   .appContainer {
-    background-image: url("/src/public/assets/home/tablet/image-hero.jpg");
+    background-image: url("/home/tablet/image-hero.jpg");
     height: 81vh;
     background-position: center;
     width: 100%;
