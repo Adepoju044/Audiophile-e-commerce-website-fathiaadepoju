@@ -5,14 +5,14 @@ function YX1EarphoneDetailMainGallerySection() {
         <div className="space-y-8">
           <div className="bg-gray-100 rounded-lg overflow-hidden group md:h-[280px] md:w-[500px]">
             <img
-              src="/src/public/assets/product-yx1-earphones/desktop/image-gallery-1.jpg"
+              src="/product-yx1-earphones/desktop/image-gallery-1.jpg"
               alt="Gallery 1"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="bg-gray-100 rounded-lg overflow-hidden group md:h-[280px] md:w-[500px]">
             <img
-              src="/src/public/assets/product-yx1-earphones/desktop/image-gallery-2.jpg"
+              src="/product-yx1-earphones/desktop/image-gallery-2.jpg"
               alt="Gallery 2"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -21,7 +21,7 @@ function YX1EarphoneDetailMainGallerySection() {
 
         <div className="bg-gray-100 rounded-lg overflow-hidden group md:h-[590px]">
           <img
-            src="/src/public/assets/product-yx1-earphones/desktop/image-gallery-3.jpg"
+            src="/product-yx1-earphones/desktop/image-gallery-3.jpg"
             alt="Gallery 3"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />

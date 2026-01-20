@@ -4,23 +4,23 @@ function YX1EarphoneDetailMainMayAlsoLikeSection() {
     {
       name: "XX99 MARK I",
       image:
-        "/src/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg",
+        "/shared/desktop/image-xx99-mark-one-headphones.jpg",
       imagee:
-        "/src/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+        "/shared/mobile/image-xx99-mark-one-headphones.jpg",
       link: "/product/xx99-mark-i-Headphones",
     },
     {
       name: "XX59",
       image:
-        "/src/public/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg",
+        "/product-xx59-headphones/desktop/image-category-page-preview.jpg",
       imagee:
-        "/src/public/assets/product-xx59-headphones/tablet/image-category-page-preview.jpg",
+        "/product-xx59-headphones/tablet/image-category-page-preview.jpg",
       link: "/product/xx59",
     },
     {
       name: "ZX9 SPEAKER",
-      image: "/src/public/assets/shared/desktop/image-zx9-speaker.jpg",
-      imagee: "/src/public/assets/shared/mobile/image-zx9-speaker.jpg",
+      image: "/shared/desktop/image-zx9-speaker.jpg",
+      imagee: "/shared/mobile/image-zx9-speaker.jpg",
       link: "/product/zx9-speaker",
     },
   ];

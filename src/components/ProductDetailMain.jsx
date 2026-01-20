@@ -9,10 +9,8 @@ function ProductDetailMain() {
     id: 1,
     name: "XX99 Mark II Headphones",
     price: 2999,
-    image:
-      "/src/public/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg",
-    imagee:
-      "/src/public/assets/product-xx99-mark-two-headphones/mobile/image-product.jpg",
+    image: "/product-xx99-mark-two-headphones/desktop/image-product.jpg",
+    imagee: "/product-xx99-mark-two-headphones/mobile/image-product.jpg",
   };
 
   const handleAddToCart = () => {

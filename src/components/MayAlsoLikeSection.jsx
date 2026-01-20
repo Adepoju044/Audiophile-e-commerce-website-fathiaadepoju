@@ -4,22 +4,20 @@ function YouMayAlsoLike() {
   const relatedProducts = [
     {
       name: "XX99 MARK I",
-      image:
-        "/src/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg",
-      imagee:
-        "/src/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+      image: "/shared/desktop/image-xx99-mark-one-headphones.jpg",
+      imagee: "/shared/mobile/image-xx99-mark-one-headphones.jpg",
       link: "/product/xx99-mark-i",
     },
     {
       name: "XX59",
-      image: "/src/public/assets/shared/desktop/image-xx59-headphones.jpg",
-      imagee: "/src/public/assets/shared/mobile/image-xx59-headphones.jpg",
+      image: "/shared/desktop/image-xx59-headphones.jpg",
+      imagee: "/shared/mobile/image-xx59-headphones.jpg",
       link: "/product/xx59",
     },
     {
       name: "ZX9 SPEAKER",
-      image: "/src/public/assets/shared/desktop/image-zx9-speaker.jpg",
-      imagee: "/src/public/assets/shared/mobile/image-zx9-speaker.jpg",
+      image: "/shared/desktop/image-zx9-speaker.jpg",
+      imagee: "/shared/mobile/image-zx9-speaker.jpg",
       link: "/product/zx9-speaker",
     },
   ];

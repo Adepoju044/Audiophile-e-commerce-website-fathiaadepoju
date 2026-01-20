@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 function Footer() {
   const socialIcons = [
     {
-      src: "/src/public/assets/shared/desktop/icon-facebook.svg",
+      src: "/shared/desktop/icon-facebook.svg",
       alt: "Facebook",
       href: "https://www.facebook.com",
     },
     {
-      src: "/src/public/assets/shared/desktop/icon-twitter.svg",
+      src: "/shared/desktop/icon-twitter.svg",
       alt: "Twitter",
       href: "https://www.twitter.com",
     },
     {
-      src: "/src/public/assets/shared/desktop/icon-instagram.svg",
+      src: "/shared/desktop/icon-instagram.svg",
       alt: "Instagram",
       href: "https://www.instagram.com",
     },

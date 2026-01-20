@@ -12,10 +12,8 @@ function XX59HeadphoneDetailMain() {
     id: 5,
     name: "XX59 Headphones",
     price: 899,
-    image:
-      "/src/public/assets/product-xx59-headphones/desktop/image-product.jpg",
-    imagee:
-      "/src/public/assets/product-xx59-headphones/mobile/image-product.jpg",
+    image: "/product-xx59-headphones/desktop/image-product.jpg",
+    imagee: "/product-xx59-headphones/mobile/image-product.jpg",
   };
   return (
     <div>
@@ -33,7 +31,7 @@ function XX59HeadphoneDetailMain() {
           <div className="grid md:grid-cols-2 gap-20 md:gap-32 items-center">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <img
-                src="/src/public/assets/product-xx59-headphones/desktop/image-product.jpg"
+                src="/product-xx59-headphones/desktop/image-product.jpg"
                 alt="XX59 Headphones"
                 className="w-full h-auto object-cover block hover:scale-110 transition-transform duration-500"
               />

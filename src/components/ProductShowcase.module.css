@@ -3,11 +3,11 @@
   background-position: center;
   height: 24rem;
   border-radius: 8px;
-  background-image: url("src/public/assets/home/desktop/image-speaker-zx7.jpg");
+  background-image: url("/home/desktop/image-speaker-zx7.jpg");
 }
 
 @media (max-width: 800px) {
   .zx7 {
-    background-image: url("src/public/assets/home/mobile/image-speaker-zx7.jpg");
+    background-image: url("/home/mobile/image-speaker-zx7.jpg");
   }
 }

@@ -11,8 +11,8 @@ function ZX7SpeakerDetailMain() {
     id: 2,
     name: "ZX7 Speaker",
     price: 3500,
-    image: "/src/public/assets/product-zx7-speaker/desktop/image-product.jpg",
-    imagee: "/src/public/assets/product-zx7-speaker/mobile/image-product.jpg",
+    image: "/product-zx7-speaker/desktop/image-product.jpg",
+    imagee: "/product-zx7-speaker/mobile/image-product.jpg",
   };
 
   return (
@@ -31,7 +31,7 @@ function ZX7SpeakerDetailMain() {
           <div className="grid md:grid-cols-2 gap-20 md:gap-32 items-center">
             <div className="bg-gray-100 rounded-lg overflow-hidden">
               <img
-                src="/src/public/assets/product-zx7-speaker/desktop/image-product.jpg"
+                src="/product-zx7-speaker/desktop/image-product.jpg"
                 alt="XX59 Headphones"
                 className="w-full h-auto object-cover block hover:scale-110 transition-transform duration-500"
               />

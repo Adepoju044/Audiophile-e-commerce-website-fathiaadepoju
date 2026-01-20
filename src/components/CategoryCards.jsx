@@ -4,20 +4,17 @@ function CategoryCards() {
   const categories = [
     {
       name: "HEADPHONES",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-headphones.png",
+      image: "/shared/desktop/image-category-thumbnail-headphones.png",
       link: "/headphones",
     },
     {
       name: "SPEAKERS",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-speakers.png",
+      image: "/shared/desktop/image-category-thumbnail-speakers.png",
       link: "/speakers",
     },
     {
       name: "EARPHONES",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-earphones.png",
+      image: "/shared/desktop/image-category-thumbnail-earphones.png",
       link: "/earphones",
     },
   ];

@@ -3,24 +3,22 @@ function ZX9SpeakerDetailMainMayAlsoLikeSection() {
   const relatedProducts = [
     {
       name: "ZX7 SPEAKER",
-      image: "/src/public/assets/product-zx7-speaker/desktop/image-product.jpg",
-      imagee: "/src/public/assets/product-zx7-speaker/tablet/image-product.jpg",
+      image: "/product-zx7-speaker/desktop/image-product.jpg",
+      imagee: "/product-zx7-speaker/tablet/image-product.jpg",
       link: "/product/zx7-speaker",
     },
     {
       name: "XX99 MARK I",
       image:
-        "/src/public/assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg",
+        "/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg",
       imagee:
-        "/src/public/assets/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
+        "/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
       link: "/product/xx99-mark-i",
     },
     {
       name: "XX59",
-      image:
-        "/src/public/assets/product-xx59-headphones/desktop/image-product.jpg",
-      imagee:
-        "/src/public/assets/product-xx59-headphones/mobile/image-product.jpg",
+      image: "/product-xx59-headphones/desktop/image-product.jpg",
+      imagee: "/product-xx59-headphones/mobile/image-product.jpg",
       link: "/product/xx59",
     },
   ];

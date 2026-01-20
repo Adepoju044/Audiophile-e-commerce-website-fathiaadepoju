@@ -25,8 +25,8 @@ function Header() {
           <img
             src={
               isMenuOpen
-                ? "/assets/shared/tablet/icon-menu-close.svg"
-                : "/assets/shared/tablet/icon-menu.svg"
+                ? "/shared/tablet/icon-menu-close.svg"
+                : "/shared/tablet/icon-menu.svg"
             }
             alt="Menu"
             className="w-5"

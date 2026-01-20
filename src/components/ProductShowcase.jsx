@@ -15,13 +15,13 @@ function ProductShowcase({ slug }) {
         <div className="relative z-10 flex flex-col md:flex-col lg:flex-row items-center justify-between px-10 py-20">
           <div className="relative flex justify-center md:block">
             <img
-              src="/src/public/assets/home/desktop/image-speaker-zx9.png"
+              src="/home/desktop/image-speaker-zx9.png"
               alt="ZX9 Speaker"
               className="hidden md:block w-[380px] transform hover:scale-105 transition duration-500"
             />
 
             <img
-              src="/src/public/assets/home/mobile/image-speaker-zx9.png"
+              src="/home/mobile/image-speaker-zx9.png"
               alt="ZX9 Speaker"
               className="md:hidden w-56 transform hover:scale-105 transition duration-500"
             />
@@ -66,7 +66,7 @@ function ProductShowcase({ slug }) {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden group">
             <img
-              src="/src/public/assets/home/desktop/image-earphones-yx1.jpg"
+              src="/home/desktop/image-earphones-yx1.jpg"
               alt="YX1 Earphones"
               className="w-full h-80 object-cover rounded-lg transform group-hover:scale-110 transition-transform duration-500"
             />

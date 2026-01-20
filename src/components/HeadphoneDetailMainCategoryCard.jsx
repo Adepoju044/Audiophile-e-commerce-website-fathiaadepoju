@@ -2,18 +2,15 @@ function HeadphoneDetailMainCategoryCard() {
   const categories = [
     {
       name: "HEADPHONES",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-headphones.png",
+      image: "/shared/desktop/image-category-thumbnail-headphones.png",
     },
     {
       name: "SPEAKERS",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-speakers.png",
+      image: "/shared/desktop/image-category-thumbnail-speakers.png",
     },
     {
       name: "EARPHONES",
-      image:
-        "/src/public/assets/shared/desktop/image-category-thumbnail-earphones.png",
+      image: "/shared/desktop/image-category-thumbnail-earphones.png",
     },
   ];
 

@@ -4,12 +4,12 @@ function BestAudioGear() {
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="order-1 md:order-1 lg:order-2 rounded-lg overflow-hidden group">
           <img
-            src="/src/public/assets/shared/desktop/image-best-gear.jpg"
+            src="/shared/desktop/image-best-gear.jpg"
             alt="Best Audio Gear"
             className="hidden lg:block w-full rounded-lg transform group-hover:scale-105 transition-transform duration-500 h-[550px] object-cover"
           />
           <img
-            src="/src/public/assets/shared/tablet/image-best-gear.jpg"
+            src="/shared/tablet/image-best-gear.jpg"
             alt="Best Audio Gear"
             className="block md:block lg:hidden w-full rounded-lg transform group-hover:scale-105 transition-transform duration-500 h-[300px] md:h-[520px] object-cover"
           />
