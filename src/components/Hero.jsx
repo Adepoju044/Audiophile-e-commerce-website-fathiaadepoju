@@ -21,7 +21,7 @@ function Hero() {
           </p>
 
           <button
-            onClick={() => navigate("/productdetailpage")}
+            onClick={() => navigate("/product/xx99-mark-ii")}
             className="bg-transparent border border-orange-500 hover:bg-orange-600 px-8 py-4 text-white uppercase tracking-widest text-sm font-bold transition-all duration-300 hover:scale-105 cursor-pointer"
           >
             SEE PRODUCT
