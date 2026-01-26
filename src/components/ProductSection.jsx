@@ -34,7 +34,7 @@ function ProductSection({ product, reverseLayout = false }) {
 
           <button
             className="bg-orange-500 hover:bg-orange-300 text-white px-8 py-4 uppercase tracking-widest text-sm font-bold transition-colors cursor-pointer"
-            onClick={() => navigate(`${slug}`)}
+            onClick={() => navigate(`/product/${slug}`)}
           >
             SEE PRODUCT
           </button>
