@@ -11,7 +11,7 @@ function HeadphoneDetailMainMayAlsoLikeSection() {
       name: "XX59",
       image: "/shared/desktop/image-xx59-headphones.jpg",
       imagee: "/shared/mobile/image-xx59-headphones.jpg",
-      link: "/product/xx59",
+      link: "/product/xx59-headphones",
     },
     {
       name: "ZX9 SPEAKER",

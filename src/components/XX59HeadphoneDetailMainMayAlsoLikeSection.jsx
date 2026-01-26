@@ -5,7 +5,7 @@ function XX59HeadphoneDetailMainMayAlsoLikeSection() {
       name: "XX99 MARK II",
       image: "/shared/desktop/image-xx99-mark-two-headphones.jpg",
       imagee: "/shared/mobile/image-xx99-mark-two-headphones.jpg",
-      link: "/product/xx99-ii-headphones",
+      link: "/product/xx99-mark-ii-headphones",
     },
     {
       name: "XX99 MARK I",
