@@ -6,13 +6,13 @@ function YouMayAlsoLike() {
       name: "XX99 MARK I",
       image: "/shared/desktop/image-xx99-mark-one-headphones.jpg",
       imagee: "/shared/mobile/image-xx99-mark-one-headphones.jpg",
-      link: "/product/xx99-mark-i",
+      link: "/product/xx99-mark-i-headphones",
     },
     {
       name: "XX59",
       image: "/shared/desktop/image-xx59-headphones.jpg",
       imagee: "/shared/mobile/image-xx59-headphones.jpg",
-      link: "/product/xx59",
+      link: "/product/xx59-headphones",
     },
     {
       name: "ZX9 SPEAKER",

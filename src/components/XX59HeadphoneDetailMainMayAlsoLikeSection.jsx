@@ -5,7 +5,7 @@ function XX59HeadphoneDetailMainMayAlsoLikeSection() {
       name: "XX99 MARK II",
       image: "/shared/desktop/image-xx99-mark-two-headphones.jpg",
       imagee: "/shared/mobile/image-xx99-mark-two-headphones.jpg",
-      link: "/product/xx99",
+      link: "/product/xx99-ii-headphones",
     },
     {
       name: "XX99 MARK I",
@@ -13,7 +13,7 @@ function XX59HeadphoneDetailMainMayAlsoLikeSection() {
         "/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg",
       imagee:
         "/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-      link: "/product/xx99-mark-i-Headphones",
+      link: "/product/xx99-mark-i-headphones",
     },
     {
       name: "ZX9 SPEAKER",

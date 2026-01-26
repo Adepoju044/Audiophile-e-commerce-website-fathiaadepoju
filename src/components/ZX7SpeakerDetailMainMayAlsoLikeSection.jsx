@@ -13,13 +13,13 @@ function ZX7SpeakerDetailMainMayAlsoLikeSection() {
         "/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg",
       imagee:
         "/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-      link: "/product/xx99-mark-i",
+      link: "/product/xx99-mark-i-headphones",
     },
     {
       name: "XX59",
       image: "/product-xx59-headphones/desktop/image-product.jpg",
       imagee: "/product-xx59-headphones/mobile/image-product.jpg",
-      link: "/product/xx59",
+      link: "/product/xx59-headphones",
     },
   ];
   return (

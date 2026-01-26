@@ -3,19 +3,15 @@ function YX1EarphoneDetailMainMayAlsoLikeSection() {
   const relatedProducts = [
     {
       name: "XX99 MARK I",
-      image:
-        "/shared/desktop/image-xx99-mark-one-headphones.jpg",
-      imagee:
-        "/shared/mobile/image-xx99-mark-one-headphones.jpg",
-      link: "/product/xx99-mark-i-Headphones",
+      image: "/shared/desktop/image-xx99-mark-one-headphones.jpg",
+      imagee: "/shared/mobile/image-xx99-mark-one-headphones.jpg",
+      link: "/product/xx99-mark-i-headphones",
     },
     {
       name: "XX59",
-      image:
-        "/product-xx59-headphones/desktop/image-category-page-preview.jpg",
-      imagee:
-        "/product-xx59-headphones/tablet/image-category-page-preview.jpg",
-      link: "/product/xx59",
+      image: "/product-xx59-headphones/desktop/image-category-page-preview.jpg",
+      imagee: "/product-xx59-headphones/tablet/image-category-page-preview.jpg",
+      link: "/product/xx59-headphones",
     },
     {
       name: "ZX9 SPEAKER",
