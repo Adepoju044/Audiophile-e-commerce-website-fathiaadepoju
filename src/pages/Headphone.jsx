@@ -3,7 +3,6 @@ import ProductSection from "../components/ProductSection";
 import CategoryCards from "../components/CategoryCards";
 import BestAudioGear from "../components/BestAudioGear";
 import Footer from "../components/Footer";
-import HeadphoneDetailMain from "../components/HeadphoneDetailMain";
 
 function Headphone() {
   const headphones = [
