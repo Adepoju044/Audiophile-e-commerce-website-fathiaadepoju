@@ -65,7 +65,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/productdetailpage" element={<ProductDetailPage />} />
+        <Route path="/product/xx99-mark-ii" element={<ProductDetailPage />} />
         <Route path="/product/xx99-mark-i" element={<XX99Mark1Headphone />} />
         <Route path="/product/xx59" element={<XX59Headphones />} />
         <Route path="/product/zx9-speaker" element={<ZX9Speaker />} />
