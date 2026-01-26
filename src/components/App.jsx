@@ -65,18 +65,23 @@ function App() {
             </div>
           }
         />
-        <Route path="/product/xx99-mark-ii" element={<ProductDetailPage />} />
-        <Route path="/product/xx99-mark-i" element={<XX99Mark1Headphone />} />
-        <Route path="/product/xx59" element={<XX59Headphones />} />
+        <Route
+          path="/product/xx99-mark-ii-headphones"
+          element={<ProductDetailPage />}
+        />
+        <Route
+          path="/product/xx99-mark-i-headphones"
+          element={<XX99Mark1Headphone />}
+        />
+        <Route path="/product/xx59-headphones" element={<XX59Headphones />} />
         <Route path="/product/zx9-speaker" element={<ZX9Speaker />} />
         <Route path="/product/zx7-speaker" element={<ZX7Speaker />} />
         <Route path="/product/xx99-markk-i" element={<ProductDetailPage />} />
-        <Route path="/product/xx59" element={<XX59Headphones />} />
+        <Route path="/product/xx59-headphones" element={<XX59Headphones />} />
         <Route path="/product/zx9-speaker" element={<ZX9Speaker />} />
-        <Route path="/product/xx99" element={<ProductDetailPage />} />
 
         <Route
-          path="/product/xx99-mark-i-Headphones"
+          path="/product/xx99-mark-i-headphones"
           element={<XX99Mark1Headphone />}
         />
         <Route path="/checkout" element={<Checkout cartItems={cartItems} />} />
