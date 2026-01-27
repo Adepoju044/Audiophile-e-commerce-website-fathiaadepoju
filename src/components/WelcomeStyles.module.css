@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Manrope", sans-serif;
+  padding: 1.5rem;
 }
 
 .typing-animation-text {
@@ -15,15 +16,16 @@
   font-size: 1.25rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  text-align: center;
 
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #d87d4a;
 
-  width: 46ch;
+  width: 60ch;
 
   animation:
-    typing 2.8s steps(46, end) forwards,
+    typing 2.8s steps(60, end) forwards,
     blink 0.75s step-end infinite;
 }
 
@@ -39,5 +41,31 @@
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-animation-text {
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+
+    white-space: normal;
+
+    max-width: 90vw;
+    width: auto;
+
+    border-right: none;
+    animation: fadeIn 1.2s ease forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
