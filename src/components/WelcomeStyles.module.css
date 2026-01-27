@@ -44,28 +44,32 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .typing-animation-text {
-    font-size: 0.9rem;
-    letter-spacing: 0.1em;
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    letter-spacing: 0.12em;
 
-    white-space: normal;
+    white-space: nowrap;
+    overflow: hidden;
 
-    max-width: 90vw;
-    width: auto;
+    border-right: 2px solid #d87d4a;
 
-    border-right: none;
-    animation: fadeIn 1.2s ease forwards;
+    max-width: 100%;
+    width: 0;
+
+    animation:
+      typing 2.4s steps(40, end) forwards,
+      blink 0.75s step-end infinite;
   }
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
