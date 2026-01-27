@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import { useState, useEffect } from "react";
 import Header from "./Header";
 import Hero from "./Hero";
 import CategoryCards from "./CategoryCards";
@@ -17,10 +18,24 @@ import ZX7Speaker from "../pages/ZX7Speaker";
 import Checkout from "./Checkout";
 import { useCart } from "./Contexts/CartContext";
 import YX1Earphone from "../pages/YX1Earphone";
+import WelcomeCustom from "./WelcomeCustom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const { cartItems } = useCart();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <WelcomeCustom />;
+  }
   return (
     <BrowserRouter>
       <ScrollToTop />
